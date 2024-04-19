@@ -8,14 +8,17 @@
 import UIKit
 
 class HomeViewController: UIViewController {
-
+    
+    //MARK: - ViewModel initialization.
+    lazy private var viewModel = HomeViewModel()
+    
+    //MARK: - View controller life cycle methods.
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         view.backgroundColor = .cyan
-        // Do any additional setup after loading the view.
+        
+        self.viewModel.fetchProducts()
+        
     }
-
-
 }
 

@@ -15,6 +15,9 @@
 		170EA7B62BD1398500348E55 /* ProductAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170EA7B52BD1398500348E55 /* ProductAppTests.swift */; };
 		170EA7C02BD1398500348E55 /* ProductAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170EA7BF2BD1398500348E55 /* ProductAppUITests.swift */; };
 		170EA7C22BD1398500348E55 /* ProductAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170EA7C12BD1398500348E55 /* ProductAppUITestsLaunchTests.swift */; };
+		17C399442BD27421002FE6EE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C399432BD27421002FE6EE /* NetworkManager.swift */; };
+		17C399462BD27442002FE6EE /* DataJsonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C399452BD27442002FE6EE /* DataJsonModel.swift */; };
+		17C3994D2BD29459002FE6EE /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C3994C2BD29459002FE6EE /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		170EA7BB2BD1398500348E55 /* ProductAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProductAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		170EA7BF2BD1398500348E55 /* ProductAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductAppUITests.swift; sourceTree = "<group>"; };
 		170EA7C12BD1398500348E55 /* ProductAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		17C399432BD27421002FE6EE /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		17C399452BD27442002FE6EE /* DataJsonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataJsonModel.swift; sourceTree = "<group>"; };
+		17C3994C2BD29459002FE6EE /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +153,7 @@
 		1718CE062BD175F900298404 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				17C399452BD27442002FE6EE /* DataJsonModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -154,6 +161,7 @@
 		1718CE072BD1760400298404 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				17C399432BD27421002FE6EE /* NetworkManager.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -161,6 +169,7 @@
 		1718CE082BD1760D00298404 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				17C3994C2BD29459002FE6EE /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -302,6 +311,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17C399462BD27442002FE6EE /* DataJsonModel.swift in Sources */,
+				17C3994D2BD29459002FE6EE /* HomeViewModel.swift in Sources */,
+				17C399442BD27421002FE6EE /* NetworkManager.swift in Sources */,
 				170EA7A02BD1398200348E55 /* HomeViewController.swift in Sources */,
 				170EA7A62BD1398300348E55 /* ProductApp.xcdatamodeld in Sources */,
 				170EA79C2BD1398200348E55 /* AppDelegate.swift in Sources */,
