@@ -13,14 +13,12 @@ enum NetworkError: Error {
     case parseError
 }
 
-
 class NetworkManager {
     static let shared = NetworkManager()
     
     private init() {} //private init() method is used in this context to implement the singleton pattern and provide a single shared instance of the NetworkManager class.
     
     func fetchProducts(limit: Int, skip: Int, completion: @escaping (Result<DataJsonModel, NetworkError>) -> Void) {
-        
         guard let url = URL(string: "https://dummyjson.com/products/?limit=\(limit)&skip=\(skip)") else {
             completion(.failure(.urlError))
             return
